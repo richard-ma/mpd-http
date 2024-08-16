@@ -13,7 +13,7 @@ client.iterate = True
 for song in client.playlistinfo():
     print(song["file"])
 
-client.play()
+#client.play()
 
 client.close()
 client.disconnect()
